@@ -53,6 +53,8 @@
     <Compile Include="HashAndMaps\icecream-parlor.cs" />
     <Compile Include="LinkedList\detect-whether-a-linked-list-contains-a-cycle.cs" />
     <Compile Include="LinkedList\insert-a-node-at-a-specific-position-in-a-linked-list.cs" />
+    <Compile Include="Matrix\search-a-2d-matrix.cs" />
+    <Compile Include="Matrix\transpose-matrix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recursion\fib.cs" />
