@@ -12,6 +12,7 @@ namespace DataStructure.Recursion
         public static Hashtable hash;
         public static int Fib(int n)
         {
+            hash = new Hashtable();
             if (n <= 1)
             {
                 return n;
@@ -37,9 +38,9 @@ namespace DataStructure.Recursion
                 {
                     b = Fib(n - 2);
                     hash.Add(n - 2, b);
-                }
+                }                
                 return a + b;
-            }
+            }            
         }
     }
 }
